@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Primepixel Studio</title>
+        <script src="script.js"></script>
+
+        <style>
+
+            body {
+                background-color: #0f172a;
+                color: #e2e8f0;
+                font-family: Arial, sans-serif;
+                text-align: center;
+            }
+            .navbar {
+                background: #ffffff;
+                color: black;
+                padding: 20px;
+                font-size: 20px;
+                font-weight: bold;
+                border: none;
+                border-radius: 20px ;
+            }
+
+            button:hover {
+                background: #000000;
+                color: gold;
+                transform: translateY(-5px);
+                transition: 0.3s;
+            }
+
+            .hero {
+                margin-top: 100px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 18px;
+                margin: 10px 0;
+            }
+
+            .services {
+                margin-top: 80px;
+            }
+
+            .services h2 {
+                margin-bottom: 20px;
+            }
+
+            .service-box {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .card {
+                background-color: #f0f0f0;
+                color: black;
+                padding: 20px;
+                border-radius: 10px;
+                width: 200px;
+                text-align: center;
+                font-size: 18px;
+            }
+
+            button {
+                padding: 12px 25px;
+                border-radius: 25px;
+                font-weight: bold;
+                border: none;
+                background: #f0f0f0;
+                color: black;
+                transition: 0.3s;
+            }
+
+            .card:hover {
+                background-color: #000000;
+                color: gold;    
+                transition: 0.3s;
+                transform: translateY(-5px);
+            }
+
+            @media (max-width: 600px) {
+                .service-box {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <title>Primepixel Studio</title>
+            <h1>We build websites for your business</h1>
+            <p>Hi, I work with clients to create websites that are not just visually refined, but strategically built to support growth and credibility.
+                 Every project is approached with attention to detail, performance, and long-term value.    
+                 If you're looking to invest in a website that reflects quality and professionalism, I would be happy to connect.</p>
+            <button onclick="ContactMe()">Contact Me</button>
+
+            <div class="Services">
+            <h2>Our Services</h2>
+            
+            <div class="service-box">
+                <div class= "card">Website Design</div>
+                <div class= "card">Fast Delivery</div>
+                <div class= "card">Affordable Price</div>
+        <div>
+</div>
+    </body>
+</html>
